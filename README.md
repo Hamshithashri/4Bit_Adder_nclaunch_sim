@@ -90,6 +90,8 @@ or
 
 	Click the cds.lib file and save the file by clicking on Save option 
 
+<img width="952" alt="exp1 2" src="https://github.com/user-attachments/assets/1f1c67cb-f59c-4b9b-999d-ee594a34c512">
+
 ### Fig 5:cds.lib file Creation
 
 	Save cds.lib file and select the correct option for cds.lib file format based on the HDL Language and Libraries used. 
@@ -112,6 +114,8 @@ or
 
 	To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation. 
 
+<img width="959" alt="exp1 3" src="https://github.com/user-attachments/assets/1800dd57-8a63-4651-a39f-d0ca1cba877e">
+
 ### Fig 7: Nclaunch Window
 
 ## Step 1: Compilation:– Process to check the correct Verilog language syntax and usage 
@@ -131,6 +135,7 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
 
+<img width="959" alt="exp1 3" src="https://github.com/user-attachments/assets/2490e515-e8d0-46d8-b67c-9d601c11228e">
 ### Fig 8: Compiled database in worklib
 
 	After compilation it will come under worklib you can see in right side window
@@ -154,8 +159,6 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
    
 	After elaboration the file will come under snapshot. Select the test bench and elaborate it.
 
-### Fig 9: Elaboration Launch Option
-
 ## Step 3: Simulation: – Simulate with the given test vectors over a period of time to observe the output behaviour. 
 
 	Inputs: Compiled and Elaborated top level module name 
@@ -166,10 +169,13 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 
 	Steps for simulation – Run the simulation command with simulator options
 
+<img width="955" alt="exp1 4" src="https://github.com/user-attachments/assets/f84f11c1-8aa9-4648-8b2f-88c1cae6486b">
 ### Fig 10: Design Browser window for simulation
 
+<img width="959" alt="exp1 5" src="https://github.com/user-attachments/assets/4bcfa68d-7451-43ac-9f2b-6cd6d6783673">
 ### Fig 11: Launching Simulation Waveform WindowSimulation Waveform Window
 
+<img width="959" alt="exp1 6" src="https://github.com/user-attachments/assets/592b845e-5c6d-4312-9a7e-430348ff80fb">
 ### Fig 12: Simulation Waveform Window
 
 ### Result:
